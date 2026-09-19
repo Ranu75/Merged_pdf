@@ -73,12 +73,6 @@ def main():
         sys.exit(4)
 
     print(f"Fusion terminée. Pages totales: {pages}")
-    if pages == 12:
-        print("✅ Le PDF de sortie contient exactement 12 pages.")
-        sys.exit(0)
-    else:
-        print("⚠️ Le PDF de sortie ne contient pas 12 pages.", file=sys.stderr)
-        sys.exit(5)
 
 
 if __name__ == "__main__":
